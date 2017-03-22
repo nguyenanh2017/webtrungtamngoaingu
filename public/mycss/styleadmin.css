@@ -1,0 +1,86 @@
+body{
+	background-color: #74DCDC;
+	padding: 0;
+	margin: 0;
+	padding-top: 3px;
+}
+/* nhom nav */
+.navbar-default{
+	background-color: #0055A8;
+}
+
+.nav li:hover {
+	background-color: white;
+}
+
+#mauchu:hover{
+	color:red;
+}
+
+#mauchu{
+	color: #01FF00;
+}
+#mau{
+	background-color: red;
+}
+
+/*nhom cac menu o trang home admin*/
+.menu_admin{
+	padding: 0px;
+}
+#edit_thumbnail{
+	background-color: #51FFFF;
+	border: 1px solid #51FFFF;
+}
+
+#img_ad{
+	height:150px;
+}
+
+.thumbnail >p{
+	text-align:center;
+}
+
+/*thuoc tinh cho bang quan li user*/
+/*cac phan tu trong bang*/
+table{
+	text-align:center;
+}
+/*hang phan tu tieu de cua bang*/
+table > thead > tr >th{
+	font-size:17px;
+	text-align:center;
+}
+
+/*form xac nhan xoa*/
+
+#xac_nhan,.xac_nhan{
+	display: none;
+}
+
+/*2 lop small message */
+.error_msg{
+	width: 100%;
+	background: #A82E00  url('../img/x.jpg') no-repeat left  ;
+	background-position: left;
+	background-size:40px;
+	padding:10px 0px 15px 45px;
+	border:1px solid red ;
+
+	text-align:left;
+	font-weight:bold;
+	color:#FF000B;
+	
+}
+.result_msg{
+	width: 100%;
+	background: #46CB33  url('../img/check.jpg') no-repeat left  ;
+	background-position: left;
+	background-size:40px;
+	padding:10px 0px 15px 45px;
+	border:1px solid #228622 ;
+
+	text-align:left;
+	font-weight:bold;
+	color:#228622;
+}

@@ -1,0 +1,413 @@
+body{
+	background-color: #A8A7A5;
+	padding: 0px;
+	margin: 0px;
+}
+/*canh le trai them cho dep vao cac div trong cac view*/
+#canhle_bang{
+	left: 35px;
+}
+
+
+
+
+
+/* nhom thanh trang thai tren cung */
+#thanhtrangthai{
+	padding: 2px;
+	margin: 3px;
+	background-color: #5C5C5C;
+	border: 2px solid #C2C2C2;
+	border-radius: 3px;
+}
+#thanhtrangthai h3{
+	color: #A8A8A8;
+	text-align:center;
+	padding-bottom:5px;
+}
+
+/*mau cho chu tieu de o moi trang*/
+#header_content{
+	margin: 20px 0px 20px 0px;
+	font-weight:bold;
+	font-size:20px;
+	color: #0043A8;
+
+}
+
+/*nhom admin_info*/
+#admin_info{
+	padding: 35px 0px 35px 0px;
+}
+#admin_info>a:hover{
+	text-decoration: none;
+}
+#admin_info strong a {
+	color:red;
+}
+
+#admin_info a{
+	display:block;
+}
+#admin_info>#logout{
+	font-size: 13px;
+}
+#logout:hover{
+	color:#1500FF;
+}
+
+
+.edit_container{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+/*nhom cac menu doc*/
+#menu_vertical{
+	padding:0px;
+	margin:0px;
+	background-color:#F0F2F4;
+	height:1000px;
+}
+
+.updown{
+	padding-top:3px;
+	float:right;
+	cursor:pointer;
+	font-size:20px;
+}
+#menu_vertical{
+	width: 210px;
+	left:19px;
+	bottom:4px;
+	text-align:center;
+}
+
+#menu_vertical ul{
+	padding:0px;
+	margin:0px;
+}
+
+#menu_vertical li{
+	width: 99%;
+	left:1px;
+	cursor:pointer;
+	position:relative;
+	list-style:none;
+	background-color:#F0F2F4;
+	margin-bottom:3px;
+	border: 1px solid #95A5A6;
+}
+#menu_vertical a{
+	font-size:20px;
+	color: #95A5A6;
+}
+#menu_vertical li:hover{
+		background-color: #D4D4D4;
+}
+
+
+#menu_vertical ul li:hover>a{
+	text-decoration: none;
+	color: #95A5A6;
+}
+
+#menu_child{
+	display:none;
+}
+
+
+#menu_child li{
+	background-color: #F0F2F4;	
+	text-align:left;
+}
+#menu_child li a{
+	margin-left:1px;
+	font-size:14px;
+}
+
+#menu_child:hover>li:hover>a{
+	color:red;
+	font-weight: bold;
+
+}
+
+/*style cho bang articles*/
+
+.page_on,.page_below{
+	float:right;
+}
+
+#data_nhan>tr>td>a {
+	cursor:pointer;
+	color:#575757;
+}
+#data_nhan>tr>td:hover>a{
+	color: #8E33CB;
+	text-decoration:none;
+	font-size:17px;
+}
+
+/*//nhom tin noi bo o trang  admin*/
+.type_new h3{
+	text-transform:uppercase;
+	text-align: center;
+}
+#phantrang{
+	height: 75px;
+	width:100%;
+}
+#phantrang div{
+	float:right;
+}
+.type_new ul li{
+	border-bottom:2px solid #ABA9A4;
+	list-style:none;
+}
+.type_new ul li>span{
+	font-size: 15px;
+	left: 5px;
+}
+.type_new>ul>li>p>span{
+	float:right;
+}
+.type_new>ul>li>p{
+	margin-bottom:20px;
+}
+.type_new ul li a{
+	margin-left:10px;
+}
+
+
+
+/*nhom cac menu o trang admin.home*/
+.menu_admin{
+	padding: 0px;
+}
+#edit_thumbnail{
+	background-color: #51FFFF;
+	border: 1px solid #51FFFF;
+}
+
+#img_ad{
+	height:50px;
+	widows: 100px;
+}
+
+.thumbnail >p{
+	text-align:center;
+}
+/*đinh dang chung cho trang admin*/
+#content_admin{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+
+
+
+/*thuoc tinh cho bang quan li user*/
+/*cac phan tu trong bang*/
+table{
+	text-align:center;
+}
+/*hang phan tu tieu de cua bang*/
+table > thead > tr >th{
+	font-size:17px;
+	text-align:center;
+}
+
+/*form xac nhan xoa*/
+
+#xac_nhan,.xac_nhan{
+	display: none;
+}
+
+/*cac lop duoc small_message goi */
+.error_msg{
+	width: 100%;
+	background: #A82E00  url('../img/x.jpg') no-repeat left  ;
+	background-position: left;
+	background-size:40px;
+	padding:10px 0px 15px 45px;
+	border:1px solid red ;
+
+	text-align:left;
+	font-weight:bold;
+	color:#FF000B;
+	
+}
+.result_msg{
+	width: 100%;
+	background: #46CB33  url('../img/check.jpg') no-repeat left  ;
+	background-position: left;
+	background-size:40px;
+	padding:10px 0px 15px 45px;
+	border:1px solid #228622 ;
+
+	text-align:left;
+	font-weight:bold;
+	color:#228622;
+}
+.info{
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #9A0E14;
+	border-radius: 5px;
+	background-color:#F9A8FF;
+
+}
+
+
+
+/*show menu folder*/
+.showFolderMulti:hover{
+	background-color: red;
+}
+
+/*bang show file khi upload*/
+#namesize {
+	text-align:left;
+}
+#namesize td{
+	left: 50px;
+}
+
+/*trang show.file*/
+
+/*show cay thu muc trong he thong*/
+#show_tree{
+	/*ke duong ben phai*/
+	height:938px;
+	left:15px;
+	border-right:5px solid red ;
+
+}
+#show_tree a{
+	margin: 2px 0px 2px 6px; 
+	cursor:pointer;
+
+}
+
+#show_tree a:hover{
+	text-decoration:none;
+	font-size:18px;
+}
+
+#show_tree li ul{
+	padding-top: 4px;
+}
+
+#show_tree ul{
+	list-style-type:none;
+	display:block;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+#show_tree span{
+	cursor: pointer;
+}
+#show_tree ul ul {
+	margin-left:15px;
+	display:none;
+}
+
+#show_tree li{
+	position: relative;
+	line-height:20px;
+	bottom:5px;
+}
+
+.show{
+	display:block;
+	position:relative;
+
+}
+.coCon{
+
+	border-left: 1px dashed black;
+}
+#con::before{
+content: '----';
+    left: -18px;
+    position: absolute;
+    right: auto
+}
+/*noi dung cua tung thu muc*/
+#file_inFolder a:hover{
+	text-decoration: none;
+	font-size:24px;
+}
+#show_file_inFolder a{
+	color:#5E3DBE;
+	cursor:pointer;
+}
+/*dinh dang anh khi show noi dung folder*/
+#img_show {
+	width:10%;
+}
+
+
+/*thong tin cua thu muc o trang quan ly thu muc*/
+#error{
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}
+#folder_info{
+	padding: 5px 0px 5px 100px;
+	font-size: 27px;
+	color: #684CBA;
+}
+.option_xoa{
+	display: none;
+	margin: 5px 0px 0px 232px;
+}
+.option_xoa>button{
+	margin: 0px 0px 0px 5px;
+}
+
+
+
+/*div option file*/
+.option_file{
+	display:none;
+	background-color: #B96100;
+	border: 1px solid red;
+	padding:5px 0px 5px 0px;
+	margin-bottom:3px;
+}
+
+.type_new h3{
+	text-transform:uppercase;
+	text-align: center;
+}
+#phantrang{
+	height: 75px;
+	width:100%;
+}
+#phantrang div{
+	float:right;
+}
+.type_new ul li{
+	border-bottom:2px solid #ABA9A4;
+	list-style:none;
+}
+.type_new ul li>span{
+	font-size: 15px;
+	left: 5px;
+}
+.type_new>ul>li>p>span{
+	float:right;
+}
+.type_new>ul>li>p{
+	margin-bottom:20px;
+}
+.type_new ul li a{
+	margin-left:10px;
+}

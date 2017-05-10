@@ -1,0 +1,7 @@
+kiem tra type bien trong javascript: typeof => tra ve la ten kieu du lieu
+
+chuyen kieu trong javascript: parseInt(chuoi so);
+
+php doi ten : rename(tencu,tenmoi);
+
+php cat het cac khoang trong di trong string: str_replace(' ','',str)

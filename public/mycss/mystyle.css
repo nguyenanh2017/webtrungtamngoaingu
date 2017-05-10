@@ -1,0 +1,480 @@
+body{
+	background-color:#ECF0F7;
+	padding:0;
+	margin: 0;
+	
+	padding-top:6px;
+}
+.mycontainer{max-width:1000px;}
+
+/*-------menu--------*/
+#big_menu{
+	background-color:#A733CB;/*mau menu*/ 
+	display:inline-block;
+	width:100%;
+	padding-left:0px;
+	margin-top:5px;
+
+}
+
+#big_menu  li{  
+	position: relative;
+	list-style:none;
+	
+	float:left;
+	/*canh giua chu*/
+	padding:9px 16px 9px 16px ;
+	margin:0 auto;
+	border-right:1px solid blue;
+
+}
+.keduongphai,#big_menu li ul li{
+	border-left:1px solid blue;
+}
+
+#big_menu  a{
+	color:#C8DEDE;
+
+}
+
+#big_menu a:visited{
+	background-color: red;
+}
+
+#big_menu  li:hover > a {
+	text-decoration:none;
+	color:#A733CB;
+
+
+}
+#big_menu  li:hover{
+	background-color:white;
+
+}
+
+#big_menu li:hover > ul{
+	visibility: visible;
+
+
+}
+
+#big_menu ul{
+	visibility:hidden;
+	position:absolute;
+	
+	padding:9px 0 0 0;/*keo menu phu xuong 9px*/
+	left:0px;
+	transition:opacity .25s linear, visibility .1s linear .1s;
+	/*menu con xep chong len tren noi dung nho dong nay*/
+	z-index: 1;
+
+
+	
+}
+#big_menu ul li{
+	float:left;
+	width:195px;
+	background-color: #A733CB;
+	border-top:1px solid blue;
+	border-right:1px solid blue;
+
+}
+#big_menu ul li:last-child{
+	border-bottom:1px solid blue;
+}
+#thongtin_trangchinh ul{
+	padding-left:0px;
+	
+}
+
+#introduce{
+	margin: 50px 0px 50px 0px;
+	border:5px solid #7EC2AA;
+	padding: 3px 10px 20px 10px;
+	border-radius: 5px;
+}
+#introduce h3{
+	color: #CC6600;
+	font-weight:solid;
+	font-size: 25px;
+}
+
+
+.form_login{
+	margin-bottom:40px;
+}
+/*slideshow*/
+.slide_show{
+	position:relative;
+
+}
+#next{
+	position: absolute;
+	top: 220px;
+	right: 50px;
+	text-decoration: none;
+	color:black;
+	font-weight: solid;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: #ECF0F7;
+	opacity: 0.4;
+}
+#next>span{
+	padding-left: 5px;
+	padding-top:3px;
+}
+#next:hover{
+	opacity: 1;
+}
+#prev{
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	left: 20px;
+	text-decoration: none;
+	color:black;
+	font-weight: solid;
+	font-size: 25px;
+	background-color: #ECF0F7;
+	opacity: 0.4;
+}
+#prev>span{
+	padding-right: 5px;
+	padding-top:3px;
+}
+#prev:hover{
+	opacity: 1;
+}
+
+
+
+.slide_show ul{
+	position: absolute;
+	list-style:none;
+	left:330px;
+	bottom:0px;
+	opacity: 0.3;
+}
+.slide_show ul li{
+	display:inline;
+	background:orange;
+	padding:5px;
+	border-radius:6px;
+	cursor:pointer;
+}
+.slide_show ul li:hover{
+	opacity: 1;
+}
+.slide_show ul li.active{
+	background-color: red;
+	color: white;
+}
+
+.mySlide{
+	border: 3px solid #545454;
+	border-radius:8px;
+	/*padding: 0px 0px 0px 9px;*/
+	width:95%;
+	height: 400px;
+}
+
+/*thongbaohoc +thongbaothi*/
+#tbt ,#tbh{
+	margin-top:10px;
+	padding: 10px 35px 0px 3px;
+}
+#tbh h4 ,#tbt h4{
+	border-bottom:4px solid #CD1719;
+	color:#3B5998;
+	border-radius:5px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size: 25px;
+}
+
+
+#tbh ul ,#tbt ul{
+	list-style:none;
+}
+#tbh ul li ,#tbt ul li{
+	border-bottom:2px solid #ABA9A4;
+	margin-top: 5px;
+}
+
+#tbh ul li span, #tbt ul li span{
+	font-size: 15px;
+}
+#tbh ul li a, #tbt ul li a{
+	margin-left: 10px;
+	margin-left: 5px;
+}
+#tbh ul li p span, #tbt ul li p span{
+	float: right;
+}
+#tbh ul li p , #tbt ul li p{
+	margin-bottom: 20px;
+}
+
+/*thongbaokhac*/
+#tbk{
+	padding: 5px 30px 0px 5px;
+	
+}
+#tbk h4{
+	text-align: center;
+	font-size: 30px;
+}
+#tbk ul{
+	list-style:none;
+}
+#tbk ul li{
+	margin-top: 5px;
+	border-bottom:2px solid #ABA9A4; 
+}
+#tbk ul li p span{
+	float:right;
+}
+
+#tbk ul li p{
+	margin-bottom: 20px;
+}
+#tbk ul li span{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+#read_more{
+	color:#4F0B88;
+	float:right;
+}
+
+
+
+#home_info .row h3{
+	text-align: center;
+	color:#A4A7AB;
+
+}
+
+
+#home_info{
+	top: -15px;
+	left: -40px;
+	padding-left:22px;
+	border-left: 1px solid blue;
+}
+#home_info h4{
+	text-align: center;
+	color:#FFFFFF;
+	background-color: blue;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+#home_info ul li{
+	list-style: none;
+	top:5px;
+	border-bottom: 2px double #ABA9A4;
+}
+#home_info ul li span{
+	font-size:15px;
+	/*float:right;*/
+}
+#home_info>div>ul>li>span{
+	top:4px;
+	left:3px;
+}
+#home_info ul li p>span{
+	font-size:15px;
+	float:right;
+}
+#home_info ul li p{
+	margin: 0 0 20px 0px;
+}
+#home_info ul li a{
+	padding-left:10px;
+
+}
+
+
+
+
+#content_home{
+	left: 7px;
+}
+#content_home h4 {
+	text-align:center;
+	color:red;
+	border-bottom:3px solid red;
+}
+#content_home ul li{
+/*	padding: 0px 5px 0px 10px;
+	border-bottom: 2px double black;*/
+}
+
+
+/*dinh dang 1 bai viet khi doc*/
+.body_articles{
+
+}
+
+.articles{
+
+}
+.thongtin_baiviet{
+	background-color:#74DC77;
+	margin-top:5px;
+}
+
+
+
+#contact{
+	margin-top: -15px;
+	height: 240px;
+	background-color: #F7F7ED;
+}
+#contact #thoi_gian{
+	padding-left: 72px;
+	padding-top: 15px;
+	color:#49A348;
+}
+#contact #hinh_anh_tieu_bieu h5{
+	text-align: center;
+	color: #491BFD;
+	text-transform: uppercase;
+}
+.img_content{
+	width: 33%;
+	height: 90px;
+	margin: 7px 0px 0px 25px;
+}
+
+#contact #lien_ket_giang_day{
+	margin: 18px 0px 0px -20px;
+	text-align: center;
+}
+#contact #lien_ket_giang_day >a {
+	color:red;
+	font-size: 20px;
+}
+#contact #lien_ket_giang_day >a:hover {
+	text-decoration: none;
+}
+
+
+#links{
+	background-color: #CCCCCC;
+}
+#link_img{
+	width: 20%;
+	height: 60px;
+	margin: 20px 25px 20px 25px;
+	opacity: 0.7;
+}
+#link_img:hover{
+	opacity: 1;
+}
+
+
+footer{
+	background-color: #ADC4CC;
+	padding: 30px 0px 50px 0px;
+}
+footer p{
+	font-size:20px;
+	color:#660066;
+}
+
+/*NHOM TIN LOAD_NEW MOI MASTER_P*/
+.news{
+	border-left: 2px solid blue;
+	margin: -15px 0px 15px 29px;
+}
+.news>h4{
+	font-size: 25px;
+	text-align: center;
+}
+.news>h4>span{
+	left:-5px;
+	text-align: center;
+}
+#load_ajax{
+	padding: 0px 0px 0px 10px;
+}
+#load_ajax li{
+	margin-top:5px;
+	border-bottom:2px solid #ABA9A4;
+	list-style:none;
+}
+#load_ajax li>span{
+	font-size: 15px;
+	left:5px;
+}
+#load_ajax li>a{
+	margin-left:10px;
+}
+#load_ajax li p span{
+	float:right;
+}
+#load_ajax li p{
+	margin-bottom:20px;
+}
+
+/*style trang loai tin readmore*/
+.type_new h3{
+	text-transform:uppercase;
+	text-align: center;
+}
+#phantrang{
+	height: 75px;
+	width:100%;
+}
+#phantrang div{
+	float:right;
+}
+.type_new ul li{
+	border-bottom:2px solid #ABA9A4;
+	list-style:none;
+}
+.type_new ul li>span{
+	font-size: 15px;
+	left: 5px;
+}
+.type_new>ul>li>p>span{
+	float:right;
+}
+.type_new>ul>li>p{
+	margin-bottom:20px;
+}
+.type_new ul li a{
+	margin-left:10px;
+}
+/*//show file*/
+
+#s_f{
+	border: 2px solid grey;
+	width: 50%;
+	text-align: center;
+}
+.showFolderMulti{
+	font-size: 17px
+}
+.show_file{
+margin: 20px 0px 10px 20px;
+}
+.show_file>p{
+	font-size: 20px;
+}
+<<<<<<< HEAD
+#s_f>a , .show_file>ul>li>a{
+=======
+.show_file li>a, #s_f>a{
+>>>>>>> f34d1f26aff08f055e7a3a1dcef61196ef3d83fc
+	cursor:pointer;
+}

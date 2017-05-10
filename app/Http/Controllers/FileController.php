@@ -17,7 +17,7 @@ use App\Document;
 class FileController extends Controller
 {
 
-    public function show(){
+    public function showa(){
         //show folder
         $fd_root = Folder::where('id_parent','=',Null)->get();
         //lay data folder
